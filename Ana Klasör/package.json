@@ -1,0 +1,39 @@
+{
+  "name": "turkce-sozluk",
+  "version": "13.0.0",
+  "description": "Türkçe Sözlük",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Mehdi Cihat Güneş",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^42.5.0",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.sozluk.app",
+    "productName": "Türkçe Sözlük",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Türkçe Sözlük",
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "installerSidebar": "installerSidebar.png",
+      "installerHeader": "installerHeader.png",
+      "include": "installer.nsh",
+      "uninstallDisplayName": "Türkçe Sözlük v13 Uygulamasını Kaldır"
+    }
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-01",
+  "categories": [
+    {
+      "id": "sozluk",
+      "title": "Sözlük",
+      "icon": "📖",
+      "description": "Kelime arama, anlam okuma ve sözlük özellikleri",
+      "targetView": "dictionary",
+      "articles": [
+        {
+          "id": "sozluk-arama",
+          "title": "Kelime Nasıl Aranır?",
+          "tags": ["arama", "kelime", "sözlük", "öneri"],
+          "relatedArticles": ["sozluk-detay", "sozluk-favori"],
+          "content": "<h3>Kelime Arama</h3><p>Sözlükte kelime aramak için ana ekrandaki arama çubuğuna istediğiniz kelimeyi yazın. Yazmaya başladığında uygulama otomatik olarak benzer kelimeleri önerir. Öneriler listesinden birine dokunarak doğrudan o kelimenin sayfasına geçebilirsiniz.</p><h4>Türkçe Karakter Desteği</h4><p>Arama kutusunun yanındaki <strong>Türkçe karakterler</strong> düğmesine basarak ı, ğ, ş, ç, ö, ü gibi harfleri kolayca ekleyebilirsiniz. Bu sayede klavyenizde bu karakterler yoksa bile doğru arama yapabilirsiniz.</p><h4>İpuçları</h4><ul><li>Kelimeyi yanlış yazsanız bile Türkçe Sözlük 13 <em>\"Bunu mu demek istediniz?\"</em> önerisi gösterir.</li></ul>"
+        },
+        {
+          "id": "sozluk-detay",
+          "title": "Kelime Detay Sayfası",
+          "tags": ["detay", "anlam", "telaffuz", "köken", "ses"],
+          "relatedArticles": ["sozluk-arama", "sozluk-favori"],
+          "content": "<h3>Kelime Detay Sayfası</h3><p>Bir kelimeye dokunduğunda veya arama yaptığında o kelimeye ait tüm bilgiler tek sayfada görüntülenir.</p><h4>Sayfada Neler Var?</h4><ul><li><strong>Kelime adı ve telaffuz:</strong> Kelimenin nasıl okunduğunu gösteren fonetik yazım (varsa) üstte küçük etiketler hâlinde görünür.</li><li><strong>Anlamlar:</strong> Her anlam numaralı olarak sıralanır; özel kullanım alanı (tıp, hukuk vb.) italik biçimde belirtilir.</li><li><strong>Örnek cümleler:</strong> Anlamların altında, varsa yazar adıyla birlikte örnek kullanımlar gösterilir.</li><li><strong>Birleşik kelimeler:</strong> Kelimenin yer aldığı bileşik sözcük veya deyimler; birine dokunarak doğrudan araması yapılabilir.</li><li><strong>Atasözleri:</strong> Kelimeyle ilgili atasözleri listelenir.</li></ul><h4>Diğer İşlemler</h4><p>Detay sayfasındayken kelimeyi <strong>favorilere ekleyebilir</strong>, bir <strong>klasöre kaydedebilir</strong> ya da kelimeyi paylaşabilir veya anlamını kopyalayabilirsiniz. Klasöre eklemek için \"Klasöre ekle\" butonuna basıp açılan listeden istediğin klasörü seçin.</p>"
+        },
+        {
+          "id": "sozluk-favori",
+          "title": "Favorilere Ekleme",
+          "tags": ["favori", "yıldız", "kaydetme"],
+          "relatedArticles": ["sayfam-favoriler", "sozluk-detay"],
+          "content": "<h3>Favorilere Ekleme</h3><p>Beğendiğin veya sık başvurmak istediğin kelimeleri favorilerine ekleyerek hızlıca ulaşabilirsiniz.</p><h4>Nasıl Eklenir?</h4><p>Kelimeyi aradıktan sonra kelime detay kartının üzerindeki <strong>yıldız (★) simgesine</strong> tıklayın.</p><h4>Favorileri Nerede Görürüm?</h4><p>Eklediğiniz tüm favori kelimeler <strong>Sayfam → Favoriler</strong> bölümünde listelenir. Oradan bir kelimeye dokunarak detayını açabilir, favoriden çıkarabilir ya da klasöre ekleyebilirsiniz.</p><h4>İpucu</h4><p>Favoriler, cihazında yerel olarak saklanır. Yedeklemek için <strong>Ayarlar → Verileri Yedekle</strong> işlemini kullanmanız gerekir.</p>"
+        },
+        {
+          "id": "sozluk-gecmis",
+          "title": "Arama Geçmişi",
+          "tags": ["geçmiş", "tarihçe", "son aramalar"],
+          "relatedArticles": ["sayfam-gecmis", "sozluk-arama"],
+          "content": "<h3>Arama Geçmişi</h3><p>Uygulama, aradığınız kelimeleri otomatik olarak kaydederek bir sonraki ziyaretinde hızlıca bulmanızı sağlar.</p><h4>Geçmişe Nasıl Ulaşırım?</h4><p><strong>Sayfam</strong> sekmesindeki <em>Arama Geçmişi</em> kartından tüm geçmişini görebilirsiniz.</p><h4>Geçmişi Yönetme</h4><p>Belirli bir kaydı silmek için listede o ögenin yanındaki sil simgesine dokun. Tüm geçmişi temizlemek için <strong>Sayfam → Arama Geçmişi (Görüntüle ve Yönet)</strong> ekranındaki \"Tümünü Sil\" seçeneğini kullan.</p>"
+        }
+      ]
+    },
+    {
+      "id": "sayfam",
+      "title": "Sayfam",
+      "icon": "👤",
+      "description": "Kişisel pano, istatistikler ve öğrenme takibi",
+      "targetView": "myPage",
+      "articles": [
+        {
+          "id": "sayfam-genel",
+          "title": "Sayfam Paneli Hakkında",
+          "tags": ["pano", "istatistik", "özet"],
+          "relatedArticles": ["sayfam-gecmis", "sayfam-favoriler"],
+          "content": "<h3>Sayfam Paneli</h3><p><strong>Sayfam</strong>, öğrenme sürecini takip ettiğin kişisel panonuzdur. Tüm aktiviteleriniz ve istatistikleriniz tek ekranda görünür.</p><h4>Panelde Neler Var?</h4><ul><li><strong>Arama Geçmişi:</strong> En son aradığınız kelimeler.</li><li><strong>Favoriler:</strong> Favorilerinize eklediğiniz kelimelerin listesi.</li><li><strong>Öğrendiklerim:</strong> Kelime kartlarında \"Öğrendim\" olarak işaretlediğiniz kelimeler.</li><li><strong>Çalışmam Gerekenler:</strong> Kelime kartlarında \"Çalışacağım\" olarak işaretlediğiniz kelimeler.</li><li><strong>Oyun Skorları:</strong> Kelime oyunundaki tüm rekorlarınız.</li></ul><p>Kartların üzerine tıklayarak ilgili bölüme geçebilir, kelime listelerini inceleyebilirsiniz.</p>"
+        },
+        {
+          "id": "sayfam-gecmis",
+          "title": "Arama Geçmişini Yönetme",
+          "tags": ["geçmiş", "silme", "temizleme"],
+          "relatedArticles": ["sozluk-gecmis", "sayfam-genel"],
+          "content": "<h3>Arama Geçmişini Yönetme</h3><p>Sayfam panelindeki <strong>Arama Geçmişi</strong> kartına dokununca tüm arama geçmişini görürsünüz. Buradan hem tek tek kayıt silebilir hem de tüm geçmişi temizleyebilirsiniz.</p><h4>Tek Kayıt Silme</h4><p>Listede bir kelimenin yanındaki <strong>çarpı simgesine</strong> tıklayın.</p><h4>Tüm Geçmişi Temizleme</h4><p>Sayfanın alt kısmındaki <strong>\"Tüm Geçmişi Temizle\"</strong> butonuna tıklayıp onay verin. Bu işlem geri alınamaz; geçmişinizi kaybetmemek için dikkatli olun.</p><h4>Gizlilik</h4><p>Arama geçmişi yalnızca cihazınızda yerel olarak saklanır, herhangi bir sunucuya gönderilmez.</p>"
+        },
+        {
+          "id": "sayfam-favoriler",
+          "title": "Favorileri Görüntüleme ve Yönetme",
+          "tags": ["favori", "yıldız", "liste", "silme"],
+          "relatedArticles": ["sozluk-favori", "klasorler-kelime-ekleme"],
+          "content": "<h3>Favorileri Görüntüleme ve Yönetme</h3><p><strong>Sayfam → Favoriler</strong> bölümünde yıldız verdiğiniz tüm kelimeleri görürsünüz. Listedeki bir kelimeye tıklayarak detay sayfasını açabilirsin.</p><h4>Favoriden Çıkarma</h4><p>Bir kelimeyi favorilerden çıkarmak için kelimenin yanındaki çarpı simgesine tıklayın.</p><h4>Klasöre Taşıma</h4><p>Favori kelimelerini düzenlemek istersen kelime detayını aç ve <strong>\"Klasöre Ekle\"</strong> seçeneğini kullan. Bu sayede kelimeleri konularına göre gruplandırabilirsiniz.</p><h4>İpucu</h4><p>Favori listenizi PDF veya TXT olarak dışa aktarabilir veya yazdırabilirsiniz.</p>"
+        },
+        {
+          "id": "sayfam-ogrendi",
+          "title": "Öğrendiklerim Listesi",
+          "tags": ["öğrendiklerim", "kart", "ilerleme"],
+          "relatedArticles": ["kartlar-surukle", "sayfam-calisma"],
+          "content": "<h3>Öğrendiklerim Listesi</h3><p>Kelime kartlarında bir kelimeyi <strong>\"Öğrendiklerim\"</strong> olarak işaretlediğinizde (sağa kaydırarak) bu kelime Sayfam'daki Öğrendiklerim listesine eklenir.</p><h4>Listeye Nasıl Ulaşırım?</h4><p><strong>Sayfam</strong> sekmesinde <em>Öğrendiklerim</em> kartına tıklayın. Buradan tüm öğrenilmiş kelimelerini görebilir, birine dokunarak detayını açabilirsiniz.</p><h4>Listeden Çıkarma</h4><p>Bir kelimeyi listeden çıkarmak için kelimenin sağındaki çarpı simgesine tıklayın. Kelime tekrar Çalışmam Gerekenler listesine dönmez; sadece her iki listeden de kaldırılır.</p><p>İlerleme takibini daha iyi yapabilmek için düzenli aralıklarla bu listeyi gözden geçirmeni öneririz.</p>"
+        },
+        {
+          "id": "sayfam-calisma",
+          "title": "Çalışmam Gerekenler",
+          "tags": ["çalışma", "tekrar", "kart", "liste"],
+          "relatedArticles": ["kartlar-surukle", "sayfam-ogrendi"],
+          "content": "<h3>Çalışmam Gerekenler</h3><p>Kelime kartlarında bir kelimeyi <strong>\"Çalışmam Gerekenler\"</strong> olarak işaretlediğinizde (sola kaydırarak) bu kelime Sayfam'daki Çalışmam Gerekenler listesine eklenir.</p><h4>Bu Liste Ne İşe Yarar?</h4><p>Tam olarak öğrenemediğiniz veya tekrar etmek istediğiniz kelimeleri burada tutarak tekrar seanslarına odaklanabilirsiniz. Kelime kartlarında <em>\"Çalışmam Gerekenler\"</em> kaynak filtresini seçerek bu listedeki kelimeler üzerinde pratik yapabilirsiniz.</p><h4>Listeden Çıkarma</h4><p>Bir kelimeyi listeden çıkarmak için kelimenin sağındaki çarpı simgesine tıklayın. Artık yeterince öğrendiğini düşünüyorsan kelimeyi Öğrendiklerim listesine taşımak için kelime kartlarında tekrar sağa kaydırabilirsiniz.</p>"
+        },
+        {
+          "id": "sayfam-skor",
+          "title": "Oyun Skorları",
+          "tags": ["skor", "rekor", "oyun", "puan"],
+          "relatedArticles": ["oyun-genel", "oyun-modlar"],
+          "content": "<h3>Oyun Skorları</h3><p>Kelime oyununda kazandığınız puanlar Sayfam panelinde saklanır. Her oyun modu için en tüm skorlarınız ayrı ayrı gösterilir.</p><h4>Skor Kartı</h4><p><strong>Sayfam → Oyun Skorları</strong> kartına dokunarak tüm modlardaki skorlarınızı görebilirsiniz. Her oyun için puanlarınız ve  oynama tarihi listelenir.</p><h4>Skorları Silme</h4><p>Tüm skor kayıtlarını silmek isterseniz Oyun Skorları ekranındaki \"Tüm Skorları Sil\" seçeneğini kullanın. Bu işlem geri alınamaz.</p>"
+        }
+      ]
+    },
+    {
+      "id": "klasorler",
+      "title": "Klasörlerim",
+      "icon": "📁",
+      "description": "Kelimeleri düzenleme, klasör oluşturma ve paylaşma",
+      "targetView": "folders",
+      "articles": [
+        {
+          "id": "klasorler-genel",
+          "title": "Klasörler Hakkında",
+          "tags": ["klasör", "organize", "liste", "kategorize"],
+          "relatedArticles": ["klasorler-olusturma", "klasorler-kelime-ekleme"],
+          "content": "<h3>Klasörler Nedir?</h3><p>Klasörler, sözlükten topladığınız kelimeleri konulara, zorluklara veya kişisel hedeflere göre gruplayarak sakladığınız bir organize sistemidir. Örneğin <em>\"Sınav Kelimeleri\"</em>, <em>\"Güzel Sözcükler\"</em> veya <em>\"Eskimiş Kelimeler\"</em> gibi dilediğiniz adda klasörler oluşturabilirsiniz.</p><h4>Klasörlerle Neler Yapabilirsiniz?</h4><ul><li>Kelimeleri konu veya konuma göre gruplandırabilirsiniz.</li><li>Klasörü Kelime Kartları'nda kaynak olarak seçerek o gruba özel çalışma yapabilirsiniz.</li><li>Klasörü <strong>PDF veya TXT</strong> olarak dışa aktarıp yazdırabilir ya da paylaşabilirsiniz.</li><li>Klasörlerin içinde <strong>alt klasörler</strong> oluşturarak iç içe bir hiyerarşi kurabilirsiniz.</li><li>Klasörleri <strong>sürükle-bırak</strong> veya kes-yapıştır ile yeniden düzenleyebilirsiniz.</li><li>Yanlışlıkla silinen klasörler <strong>Geri Dönüşüm Kutusu</strong>'ndan kurtarılabilir.</li></ul><h4>Klasörlerim Ekranı</h4><p>Menüde <strong>Klasörlerim</strong> sekmesine dokunarak bu bölüme erişirsiniz. Ekranda mevcut klasörler kart ya da liste görünümünde sıralanır. Yeni Klasör <strong>+</strong> butonuyla yeni klasör oluşturabilir, üst araç çubuğundaki arama kutusuyla klasörler içinde arama yapabilirsiniz.</p><h4>Görünüm Seçenekleri</h4><p>Klasör listesi <strong>Kart görünümü</strong> (büyük kutucuklar) veya <strong>Liste görünümü</strong> (sıkıştırılmış satırlar) olarak gösterilebilir. Sağ üstteki ızgara/liste simgesine dokunarak istediğiniz moda geçebilirsiniz. Seçiminiz kaydedilir ve bir sonraki oturumda aynı görünümde açılır.</p><h4>Sıralama</h4><p>Klasör listesini <strong>A-Z</strong>, <strong>Z-A</strong>, <strong>Kelime sayısına göre (çoktan aza / azdan çoğa)</strong> veya <strong>Oluşturma tarihine göre</strong> sıralayabilirsiniz. Sıralama menüsüne üst araç çubuğundaki sıralama simgesinden ulaşırsınız. \"Özel sıra\" modunda sürükle-bırak sırasını korur.</p>"
+        },
+        {
+          "id": "klasorler-olusturma",
+          "title": "Yeni Klasör Oluşturma",
+          "tags": ["yeni", "klasör", "oluşturma", "ad", "simge"],
+          "relatedArticles": ["klasorler-genel", "klasorler-duzenle"],
+          "content": "<h3>Yeni Klasör Oluşturma</h3><p>Klasörlerim ekranında Yeni Klasör <strong>(+)</strong> butonuna tıklayarak veya Klasörlerim sayfasında boş bir yerde sağ tıklayıp Yeni Klasör seçeneğini seçerek yeni klasör oluşturabilirsiniz.</p><h4>Adım Adım</h4><ol><li>Klasörlerim sekmesini açın.</li><li>Yeni klasör <strong>+</strong> butonuna tıklayın. (Bir klasörün içindeysen açılan iletişim kutusunun başlığı \"[Klasör Adı] İçinde Yeni Klasör\" olarak değişir; bu durum yeni klasörü otomatik olarak o klasörün alt klasörü yapar.)</li><li>Açılan pencerede <strong>Klasör adını</strong> yazın. Ad en fazla 32 karakter olabilir; başında ve sonundaki boşluklar otomatik kırpılır.</li><li>İsterseniz kısa bir <strong>açıklama</strong> da ekleyebilirsiniz (isteğe bağlı, en fazla 255 karakter).</li><li><strong>Oluştur</strong> butonuna basarak klasörü oluşturun.</li></ol><h4>Aynı İsimde Klasör Varsa Ne Olur?</h4><p>Mevcut klasörlerden biriyle aynı adı girerseniz uygulama, klasörü <em>\"Klasör Adı (2)\"</em>, <em>\"(3)\"</em> şeklinde isimlendirir. Bir klasörü kopyaladığında da ad çakışması otomatik olarak çözülür: kopya <em>\"Klasör Adı (2)\"</em>, <em>\"(3)\"</em> şeklinde isimlendirilir.</p><h4>Simge Değiştirme</h4><p>Yeni klasörlerin varsayılan simgesi 📁 dir. Oluşturduktan sonra simgeyi değiştirmek için klasöre sağ tıklayın ve bağlam menüsünden <strong>Klasör Özellikleri</strong> seçeneğini açın. Daha sonra Klasör Özellikleri penceresinde klasör simgesine sağ tıklayın. Açılan menüde hazır simgelerden (📁 📂 🗂️ 🗃️ 🗄️ 🧰 📚 📝 🎵 🖼️) birini seçebilir ya da kendi simgenizi (.ico, .png ve .svg formatında) yükleyebilirsiniz.</p>"
+        },
+        {
+          "id": "klasorler-kelime-ekleme",
+          "title": "Klasöre Kelime Ekleme",
+          "tags": ["kelime", "ekleme", "kaydetme", "klasör"],
+          "relatedArticles": ["sozluk-detay", "klasorler-genel"],
+          "content": "<h3>Klasöre Kelime Ekleme</h3><p>Bir kelimeyi bir veya birden fazla klasöre ekleyerek dilediğiniz şekilde organize edebilirsiniz.</p><h4>Klasöre Ekle</h4><ol><li>Sözlük ekranında kelimeyi arayın.</li><li>Kelime detay kartındaki <strong>\"Klasöre Ekle\"</strong> butonuna dokunun.</li><li>Açılan açılır menüde tüm klasörlerin hiyerarşik listesi görünür. Klasörlerin yanında kaç kelime içerdikleri ve alt klasör sayıları yazan küçük bilgi etiketi bulunur.</li><li>İstediğiniz klasörün adına tıklayın. Kelime o klasöre anında eklenir. Kelime zaten o klasördeyse <strong>\"✓ Zaten eklendi\"</strong> etiketi görünür ve gri olur.</li><li>Birden fazla klasöre eklemek için menüyü açık tutarak diğer klasörlere de tıklamaya devam edebilirsiniz.</li></ol><h4>Aynı Kelimeyi Birden Fazla Klasörde Tutma</h4><p>Bir kelime aynı anda birden fazla klasörde yer alabilir. Kaldırmak istediğinizde ilgili klasörün içine girin, kelimeyi bulun ve yanındaki <strong>çarpı simgesine</strong> tıklayın.</p><h4>Kelimeyi Klasörden Silme</h4><p>Klasöre girince kelime listesi açılır. Her kelimenin yanında bir sil (çarpı) simgesi bulunur. Dokunarak o kelimeyi klasörden kaldırabilirsiniz. Bu işlem kelimeyi sözlükten silmez; yalnızca klasörden çıkarır.</p>"
+        },
+        {
+          "id": "klasorler-duzenle",
+          "title": "Klasörü Düzenleme ve Simge Değiştirme",
+          "tags": ["düzenleme", "simge", "ad", "emoji", "ikon", "yeniden adlandır"],
+          "relatedArticles": ["klasorler-olusturma", "klasorler-altklasör"],
+          "content": "<h3>Klasörü Düzenleme</h3><p>Bir klasörün adını, açıklamasını veya simgesini istediğin zaman değiştirebilirsiniz. Bunun için iki farklı yol mevcuttur.</p><h4>Yol 1: Bağlam Menüsünden (Sağ Tıklama)</h4><ol><li>Klasör listesinde düzenlemek istediğiniz klasörün üzerinde <strong>sağ tıklayın</strong> ya da sağ üst köşesindeki <strong>⋯</strong> simgesine tıklayın.</li><li>Açılan bağlam menüsünden <strong>\"Yeniden Adlandır\"</strong> seçeneğini seçin.</li><li>Yeni adı girin ve <strong>Kaydet</strong>'e basın.</li></ol><h4>Yol 2: Klasör Detay Penceresinden</h4><ol><li>Klasöre dokunun; detay penceresi açılır.</li><li>Üstteki <strong>\"✏️ Yeniden Adlandır\"</strong> butonuna basın.</li><li>Pencerede bir metin alanı açılır; yeni adı girin ve <strong>Kaydet</strong>'e basın.</li></ol><h4>Simge Değiştirme</h4><p>Bağlam menüsünden <strong>\"Klasör Özellikleri\"</strong> yoluna gidin ve daha sonra Klasör Özellikleri penceresinde klasör simgesine sağ tıklayarak simge seçicisini açın. Simge olarak şu seçenekler mevcuttur:</p><ul><li><strong>Hazır emoji ikonlar:</strong> 📁 📂 🗂️ 🗃️ 🗄️ 🧰 📚 📝 🎵 🖼️</li><li><strong>Özel simge:</strong> Bilgisayarınızdan bir simge seçebilirsiniz. (.ico, .png ve .svg biçimleri desteklenir).</li></ul><h4>Klasör Özellikleri</h4><p>Bağlam menüsündeki <strong>\"Klasör Özellikleri\"</strong> seçeneğiyle şu bilgilere ulaşırsınuz: klasörün oluşturulma tarihi, son değiştirilme tarihi, içerdiği kelime sayısı ve açıklama.</p><h4>Ad Değiştirme Kuralları</h4><p>Yeni ad başka bir klasörle aynı olamaz. Geçersiz bir ad girilirse uygulama uyarı verir. Ad değişince alt klasörlerin üst referansı da otomatik olarak güncellenir; herhangi bir veri kaybı yaşanmaz.</p>"
+        },
+        {
+          "id": "klasorler-altklasör",
+          "title": "Alt Klasörler ve Hiyerarşi",
+          "tags": ["alt klasör", "iç içe", "hiyerarşi", "üst klasör"],
+          "relatedArticles": ["klasorler-surukle", "klasorler-duzenle"],
+          "content": "<h3>Alt Klasörler ve Hiyerarşi</h3><p>Klasörler, içinde başka klasörler barındırabilir. Böylece <em>\"Dil Öğrenimi → Fiiller → Düzensiz Fiiller\"</em> gibi iç içe geçmiş bir yapı kurabilirsiniz. Derinlik sınırı yoktur; ancak okunabilirlik açısından 3-4 seviyeyle sınırlı tutmanızı öneririz.</p><h4>Alt Klasör Oluşturma</h4><p>Şu şekilde alt klasörler oluşturabilirsiniz:</p><ol><li>Üst klasörün içine girin, ardından Yeni Klasör <strong>+</strong> butonuna basın. Açılan pencere başlığı <em>\"[Üst Klasör Adı] İçinde Yeni Klasör\"</em> olarak görünür ve yeni klasör otomatik olarak o üst klasörün altına eklenir.</li></ol><h4>Navigasyon: Adres Çubuğu</h4><p>Alt klasörlere girdiğinde ekranın üst kısmında bir <strong>adres çubuğu</strong> belirir:</p><p><code>🏠 Klasörlerim / 📁 Dil Öğrenimi / 📁 Fiiller</code></p><p>Adres çubuğundaki herhangi bir ögeye dokunarak o klasöre atlayabilirsiniz. En soldaki 🏠 simgesi siz her zaman kök seviyesine götürür. <strong>← Yukarı</strong> okuna basarak bir üst klasörü dönebilirsiniz.</p><h4>Adres Çubuğu'na Sürükle-Bırak</h4><p>Bir klasörü sürüklerken adres çubuğundaki herhangi bir klasörün üzerine bırakabilirsiniz. Bu sayede bir klasörü birkaç klasör yukarıya, hatta kök klasöre kolayca taşıyabilirsiniz.</p><h4>Alt Klasörü Silme</h4><p>Bir üst klasörü sildiğinizde, içindeki tüm alt klasörler de birlikte Geri Dönüşüm Kutusu'na taşınır. Silme onayı ekranında <em>\"Bu klasörü ve içindeki X alt klasörü taşımak istediğinize emin misiniz?\"</em> uyarısı gösterilir. Geri Dönüşüm Kutusu'ndan geri yüklerken tüm hiyerarşi yeniden oluşturulur.</p>"
+        },
+        {
+          "id": "klasorler-surukle",
+          "title": "Sürükle-Bırak ile Taşıma",
+          "tags": ["sürükle", "bırak", "taşıma", "drag drop"],
+          "relatedArticles": ["klasorler-altklasör", "klasorler-genel"],
+          "content": "<h3><h3>Sürükle-Bırak ile Taşıma</h3><p>Klasörleri hem listede yeniden sıralamak hem de farklı bir üst klasörün içine taşımak için sürükle-bırak yöntemini kullanabilirsiniz.</p><h4>Sıralama: Aynı Seviyede Konumu Değiştirme</h4><ol><li>Taşımak istediğin klasörü uzun basarak tut.</li><li>Klasör hafifçe büyür ve tutulabilir hâle gelir.</li><li>Fareyi yukarı/aşağı kaydırarak klasörü yeni konumuna sürükle.</li><li>Bıraktığında liste güncellenir ve sıralama \"Özel sıra\" moduna geçer.</li></ol><h4>Farklı Bir Üst Klasörün İçine Taşıma</h4><ol><li>Klasörü sürükle-bırak ile tutun.</li><li>Hedef klasörün <strong>üzerinde biraz bekleyin</strong>; klasör vurgulanır.</li><li>Fareyi bırakın; taşınan klasör artık o klasörün alt klasörü olur.</li></ol><p><strong>Not:</strong> Bir klasörü kendi kendisinin alt klasörü yapma girişimi engellenir. Aynı şekilde bir klasörü kendi alt klasörlerinden birine taşımaya çalışmak da mümkün değildir.</p><h4>Adres Çubuğu'na Sürükle</h4><p>Klasörü sürüklerken üst kısımdaki <strong>adres çubuğu</strong> bölümündeki herhangi bir seviyeye bırakabilirsiniz. Bu sayede birkaç seviye yukarıya ya da kök seviyesine hızlıca taşıyabilirsiniz.</p><h4>Kes – Kopyala – Yapıştır</h4><p>Sürükle-bırak yerine Kes/Kopyala/Yapıştır akışını da kullanabilirsiniz:</p><ol><li>Klasöre sağ tıklayarak bağlam menüsünü açın.</li><li><strong>\"Kes\"</strong> veya <strong>\"Kopyala\"</strong> seçeneğini seçin. \"Kes\" seçildiğinde kesildi bildirimi gösterilir.</li><li>Hedef konuma gidin (başka bir klasörün içine veya kök seviyeye).</li><li>Boş alana sağ tıklayarak <strong>\"Yapıştır\"</strong> seçeneğini seçin; ya da bir klasörün bağlam menüsünden <strong>\"İçine Yapıştır\"</strong>'ı seçin.</li></ol><p><strong>Kopyalama:</strong> Kaynak klasör olduğu yerde kalır; hedefte \"Klasör Adı Kopya\" adıyla bir kopyası oluşturulur. Alt klasörlerin tamamı da kopyalanır.</p><p><strong>Kesme:</strong> Kaynak klasör eski konumundan silinip hedef konuma taşınır.</p><h4>Çoklu Seçim ile Toplu Taşıma</h4><p>Birden fazla klasörü aynı anda silmek için <strong>Seçim Modu</strong>'nu kullan. Üst araç çubuğundaki <strong>\"Seçim Modu\"</strong> butonuna bas, ardından istediğin klasörlere tek tek dokun. Seçili klasörler işaretlenir; <strong>\"Seçilenleri Sil\"</strong> ile tümünü Geri Dönüşüm Kutusu'na gönderebilirsin. <strong>\"Tümünü Seç\"</strong> ile mevcut seviyedeki tüm klasörler işaretlenir.</p>"
+        },
+        {
+          "id": "klasorler-disaaktar",
+          "title": "PDF ve TXT Olarak Dışa Aktarma",
+          "tags": ["dışa aktarma", "PDF", "TXT", "indirme", "yazdırma"],
+          "relatedArticles": ["ayarlar-yedekleme", "klasorler-genel"],
+          "content": "<h3>PDF ve TXT Olarak Dışa Aktarma</h3><p>Klasörlerin içindeki kelimeleri, anlam, örnek cümle, birleşik kelimeler, atasözleri ve köken bilgileriyle birlikte PDF veya düz metin (TXT) formatında dışa aktarabilirsiniz.</p><h4>Nasıl Yapılır?</h4><p>Dışa aktarmak için iki yol bulunur:</p><ol><li><strong>Bağlam menüsünden:</strong> Klasör listesinde klasöre sağ tıklayın veya ⋯ menüsünü açın → <strong>\"PDF Olarak Dışa Aktar\"</strong> veya <strong>\"TXT Olarak Dışa Aktar\"</strong> seçeneğini seçin.</li><li><strong>Klasör detay penceresinden:</strong> Klasörü açın → detay penceresinde <strong>\"📄 PDF İndir\"</strong> veya <strong>\"📝 TXT İndir\"</strong> butonlarına basın.</li></ol><h4>Dışa Aktarım Süreci</h4><p>Dışa aktarma başlatıldığında arka planda ilerleme göstergesiyle takip edilebilir. İşlem tamamlandığında:</p><ul><li><strong>TXT formatı:</strong> Dosya doğrudan cihazınıza indirilir.</li><li><strong>PDF formatı:</strong> İşletim sisteminin yazdırma iletişim kutusu açılır; oradan <em>\"PDF Olarak Kaydet\"</em> seçeneğiyle PDF oluşturabilirsiniz.</li></ul><h4>Dışa Aktarılan İçerik</h4><p>Her kelime için şu bilgiler yer alır:</p><ul><li>Kelimenin adı ve köken / telaffuz bilgisi</li><li>Numaralı anlamlar ve kullanım özellikleri</li><li>Örnek cümleler ve yazar adları</li><li>Birleşik kelimeler</li><li>Atasözleri ve deyimler</li></ul><h4>Dikkat Edilmesi Gerekenler</h4><ul><li>Dışa aktarım internet bağlantısı gerektirir; çevrim dışıysanız bazı kelimeler için <em>\"Sözlük verisi alınamadı\"</em> notu düşülür.</li><li>Kelime sayısı fazlaysa işlem birkaç dakika sürebilir.</li><li>Klasör boşsa dışa aktarım başlatılamaz; uygulama uyarı verir.</li></ul>"
+        },
+        {
+          "id": "klasorler-geri-donusum",
+          "title": "Geri Dönüşüm Kutusu",
+          "tags": ["geri dönüşüm", "silme", "geri al", "kurtarma"],
+          "relatedArticles": ["klasorler-olusturma"],
+          "content": "<h3>Geri Dönüşüm Kutusu</h3><p>Silinen klasörler hemen kalıcı olarak silinmez; önce <strong>Geri Dönüşüm Kutusu</strong>'na taşınır ve ayarlarda belirtilen süre boyunca (varsayılan: <strong>30 gün</strong>) saklanır. Bu sayede yanlışlıkla sildiğiniz klasörleri ve içlerindeki tüm kelimeleri kurtarabilirsiniz.</p><h4>Geri Dönüşüm Kutusuna Erişim</h4><p>Menüden <strong>Sayfam</strong> sekmesini açın. En alttaki <strong>Geri Dönüşüm Kutusu</strong>'na tıklayın; silinen klasörlerin listelendiği Geri Dönüşüm Kutusu açılır.</p><h4>Listede Neler Görünür?</h4><p>Her silinen klasör için şunlar gösterilir:</p><ul><li>Klasörün adı ve simgesi</li><li>Silinme tarihi</li><li><strong>Kaç gün içinde kalıcı olarak silineceği</strong> (ör. \"5 gün sonra kalıcı silinir\")</li></ul><h4>Klasörü Geri Yükleme</h4><ol><li>Geri dönüşümde listede geri yüklemek istediğiniz klasörü bul.</li><li>Klasöre sağ tıklayarak bağlam menüsünü açın ve <strong>\"Geri Yükle\"</strong> seçeneğine tıklayın.</li><li>Klasör ve içindeki tüm alt klasörler ile kelimeler eksiksiz biçimde <strong>Klasörlerim</strong>'e geri döner.</li><li>Aynı adda bir klasör zaten mevcutsa geri yüklenen klasöre otomatik olarak <em>\"(2)\"</em> ekiyle yeni bir ad verilir.</li></ol><h4>Kalıcı Silme</h4><p>Bir klasörü geri dönüşümden de tamamen kaldırmak isterseniz:</p><ol><li>Klasöre sağ tıklayarak bağlam menüsünü açın.</li><li><strong>\"🗑️ Sil\"</strong> seçeneğine dokunun.</li><li>Onay ekranında <em>\"Bu klasörü kalıcı olarak silmek istediğinize emin misiniz?\"</em> sorusuna <strong>Evet</strong> deyin.</li></ol><p>Bu işlem geri alınamaz. Kalıcı silmeden önce dışa aktarma yapmak isteyebilirsiniz.</p><h4>Toplu İşlemler</h4><p>Bir klasörün üstüne tıklayarak Seçim Modu'nu etkinleştir. Birden fazla klasör seçebilir, ardından <strong>\"Seçilenleri Geri Yükle\"</strong> veya <strong>\"Sil\"</strong> seçeneklerini kullanabilirsiniz. <strong>\"Tümünü Seç\"</strong> ile Geri Dönüşüm Kutusu'ndaki tüm klasörler işaretlenir.</p><h4>Saklama Süresini Ayarlama</h4><p>Klasörlerin geri dönüşümde ne kadar süre tutulacağını değiştirmek için <strong>Ayarlar → Genel → Silinen klasörleri Geri Dönüşüm Kutusu'nda şu kadar süre sakla</strong> bölümüne git. Açılır menüden 15, 30 veya 60 gün seçebilirsiniz.</p>"
+        }
+      ]
+    },
+    {
+      "id": "kartlar",
+      "title": "Kelime Kartları",
+      "icon": "🎴",
+      "description": "Kelime kartları sistemi ile etkili kelime öğrenme",
+      "targetView": "flashcards",
+      "articles": [
+        {
+          "id": "kartlar-genel",
+          "title": "Kelime Kartları Nedir?",
+          "tags": ["kart", "flashcard", "öğrenme", "tekrar"],
+          "relatedArticles": ["kartlar-cevir", "kartlar-surukle"],
+          "content": "<h3>Kelime Kartları</h3><p>Kelime Kartları ekranı, kelimeleri etkili bir şekilde ezberlemenizi sağlayan bir flashcard sistemidir. Her kartta önde kelime, arkada anlamı yer alır.</p><h4>Nasıl Çalışır?</h4><p>Bir kartı çevirerek anlamını görebilir, ardından o kelimeyi öğrenip öğrenmediğini işaretleyebilirsiniz.</p><h4>Ne İşe Yarar?</h4><ul><li>Tekrar tekrar görerek kelimeleri daha kolay ezberlersiniz.</li><li>Öğrendiğiniz ve öğrenemediğiniz kelimeleri ayırt ederek zamanını verimli kullanırsınız.</li><li>İstediğin klasörü kaynak seçerek belirli bir konu grubuna odaklanabilirsiniz.</li></ul>"
+        },
+        {
+          "id": "kartlar-cevir",
+          "title": "Kartı Çevirme ve Anlam Görme",
+          "tags": ["çevirme", "flip", "anlam", "arka yüz"],
+          "relatedArticles": ["kartlar-genel", "kartlar-surukle"],
+          "content": "<h3>Kartı Çevirme</h3><p>Kelime kartının ön yüzünde <strong>kelime</strong> yazar. Anlamını görmek için karta <strong>tıklayın</strong>; kart dönerek arka yüzünü gösterir ve anlamı ortaya çıkar.</p><h4>Arka Yüzde Neler Var?</h4><ul><li>Kelimenin birincil anlamı.</li></ul><h4>Tekrar Çevirme</h4><p>Anlamı gördükten sonra kartı tekrar ön yüze almak için <strong>tekrar tıklayın</strong>. Ardından bir sonraki karta geçebilirsiniz.</p>"
+        },
+        {
+          "id": "kartlar-surukle",
+          "title": "Öğrendim / Çalışacağım Olarak İşaretleme",
+          "tags": ["sürükle", "öğrendim", "çalışacağım", "sınıflandırma"],
+          "relatedArticles": ["kartlar-cevir", "sayfam-ogrendi"],
+          "content": "<h3>Kartları İşaretleme</h3><p>Her kartı inceledikten sonra o kelimeyi öğrenip öğrenmediğini işaretleyerek ilerleme takibi yapabilirsiniz.</p><h4>Nasıl İşaretlenir?</h4><ul><li><strong>Öğrendiklerim:</strong> Kartı <strong>sağa kaydırın</strong>. Kelime <em>Öğrendiklerim</em> listesine eklenir.</li><li><strong>Çalışmam Gerekenler:</strong> Kartı <strong>sola kaydırın</strong> Kelime <em>Çalışmam Gerekenler</em> listesine eklenir.</li><li><strong>Sonra Bak:</strong> Kartı sürüklemeden geçeseniz (Kutulara Atmadan Geç); kelime işaretlenmeden sonraki turda tekrar karşına çıkar.</li></ul><h4>Sonuçları Nerede Görürüm?</h4><p>İşaretlediğiniz kelimeler <strong>Sayfam</strong> sekmesindeki Öğrendiklerim ve Çalışmam Gerekenler listelerinde takip edilir.</p>"
+        },
+        {
+          "id": "kartlar-filtre",
+          "title": "Kaynak Filtresi ile Klasör Seçme",
+          "tags": ["filtre", "klasör", "kaynak", "seçme"],
+          "relatedArticles": ["klasorler-genel", "kartlar-genel"],
+          "content": "<h3>Kaynak Filtresi</h3><p>Varsayılan olarak kelime kartları tüm kelimeler arasından rastgele seçilir. Belirli bir klasörün kelimelerine odaklanmak için <strong>kaynak filtresini</strong> kullanabilirsin.</p><h4>Kaynak Nasıl Seçilir?</h4><ol><li>Kelime Kartları ekranında <strong>Sözcüklerin kaynağını seç...</strong> kısmındaki listeye dokunun.</li><li>Açılan listeden çalışmak istediğiniz klasörü seçin.</li><li>\"Tüm Kelimeler\", \"Favoriler\" veya \"Çalışmam Gerekenler\" seçeneklerinden birini de belirleyebilirsiniz.</li><li>Filtre uygulandığında kart destesi seçiminize göre yenilenir.</li></ol><h4>İpucu</h4><p>Sınava hazırlanırken ilgili klasörü seçin ve sadece o konu üzerinde pratik yapın. Bu sayede zamanını çok daha verimli kullanırsınız.</p>"
+        }
+      ]
+    },
+    {
+      "id": "dizin",
+      "title": "Sözcük Dizini",
+      "icon": "🔤",
+      "description": "Alfabetik kelime listeleme ve göz atma",
+      "targetView": null,
+      "articles": [
+        {
+          "id": "dizin-genel",
+          "title": "Sözcük Dizini Nedir?",
+          "tags": ["dizin", "alfabetik", "liste", "kelime tarama"],
+          "relatedArticles": ["dizin-harf", "dizin-arama"],
+          "content": "<h3>Sözcük Dizini</h3><p><strong>Sözcük Dizini</strong>, sözlükteki tüm kelimeleri alfabetik sırayla listelediğiniz bir bölümdür. Belirli bir kelime aramak yerine göz gezdirerek yeni kelimeler keşfetmek için idealdir.</p><h4>Nasıl Kullanılır?</h4><p>Menüden Sözcük Dizini penceresini aç. Kelimeler A'dan Z'ye doğru listelenir. Bir kelimeye dokunarak detay sayfasını açabilirsiniz.</p><h4>Ne İşe Yarar?</h4><ul><li>Belirli bir harfle başlayan kelimeleri toplu görme.</li><li>Rastgele yeni kelimeler keşfetme.</li><li>Aklınızda tam olmayan bir kelimeyi listede arama.</li></ul>"
+        },
+        {
+          "id": "dizin-harf",
+          "title": "Harfe Göre Filtreleme",
+          "tags": ["harf", "filtre", "alfabetik", "A-Z"],
+          "relatedArticles": ["dizin-genel", "dizin-arama"],
+          "content": "<h3>Harfe Gitme</h3><p>Sözcük Dizini ekranında tüm harfleri sırayla gezmek yerine belirli bir harfe gidebilirsiniz.</p><h4>Nasıl Yapılır?</h4><ol><li>Sözcük Dizini ekranında ekranın üst kısmındaki harf şeridine tıklayın.</li><li>Görmek istediğin harfe tıklayın; liste anında o harfle başlayan kelimelere gider.</li></ol></p>"
+        },
+        {
+          "id": "dizin-arama",
+          "title": "Dizin İçinde Arama",
+          "tags": ["arama", "filtre", "dizin", "bul"],
+          "relatedArticles": ["dizin-harf", "sozluk-arama"],
+          "content": "<h3>Dizin İçinde Arama</h3><p>Sözcük Dizini çok büyük bir listeyi barındırır. Aklınızdaki kelimeyi hızlıca bulmak için dizin içi arama özelliğini kullanabilirsiniz.</p><h4>Nasıl Aranır?</h4><ol><li>Sözcük Dizini ekranındaki <strong>arama çubuğuna</strong> tıklayın.</li><li>Kelimeyi ya da kelimenin bir bölümünü yazın; liste anlık olarak filtrelenir.</li><li>Sonuçlardan bir kelimeye dokunarak detay sayfasını açın.</li></ol><h4>Fark Nedir?</h4><p>Ana sözlük aramasından farklı olarak dizin araması yalnızca sözlükte kayıtlı kelimeler arasında anlık filtreleme yapar. Bu nedenle çok daha hızlıdır.</p>"
+        }
+      ]
+    },
+    {
+      "id": "oyun",
+      "title": "Kelime Oyunu",
+      "icon": "🎮",
+      "description": "Oyunlu öğrenme, modlar ve skor sistemi",
+      "targetView": "game",
+      "articles": [
+        {
+          "id": "oyun-genel",
+          "title": "Kelime Oyunu Hakkında",
+          "tags": ["oyun", "eğlence", "öğrenme", "quiz"],
+          "relatedArticles": ["oyun-modlar", "sayfam-skor"],
+          "content": "<h3>Kelime Oyunu</h3><p>Kelime Oyunu, eğlenceli bir test formatıyla kelime bilgini pekiştirmenizi sağlayan bir öğrenme aracıdır. Sorular çoktan seçmeli olarak sunulur ve doğru cevabı seçmek için süre sınırınız vardır.</p><h4>Neden Oyun?</h4><p>Tekrar yöntemlerine kıyasla oyunlu öğrenme motivasyonu artırır. Zaman baskısı altında doğru cevabı bulmak, kelimelerin kalıcı olarak hafızanıza yerleşmesini hızlandırır.</p><h4>Nasıl Başlanır?</h4><ol><li>Menüden <strong>Kelime Oyunu</strong> sekmesine tıklayın.</li><li>Oyun modunu seçin.</li><li><strong>\"Başla\"</strong> butonuna basın ve oynamaya başlayın.</li></ol>"
+        },
+        {
+          "id": "oyun-modlar",
+          "title": "Oyun Modları: Tanımdan Kelime / Kelimeden Tanım",
+          "tags": ["mod", "tanım", "kelime", "şık", "quiz"],
+          "relatedArticles": ["oyun-genel", "oyun-puan"],
+          "content": "<h3>Oyun Modları</h3><p>Kelime Oyunu'nda farklı oyun modları bulunur. Her mod farklı bir bakış açısıyla kelimeleri pekiştirmenizi sağlar.</p><h4>Tanımdan Kelime Bul</h4><p>Ekranda bir <strong>tanım (anlam)</strong> gösterilir; 4 seçenek arasından bu tanıma uyan kelimeyi bulmanız gerekir. Türkçe kelime dağarcığınızı ve anlam ilişkilerinizi güçlendirir. Ayarlar → Genel → Tanımdan Kelime Bul oyununda yazılı cevap modunu kullan seçeneğini etkinleştirerek seçenekli değil yazılı da oynayabilirsiniz.</p><h4>Kelimeden Tanım</h4><p>Ekranda bir <strong>kelime</strong> gösterilir; 4 şık arasından doğru anlamı seçmeniz gerekir. Bu mod kelimelerin anlamlarını daha sağlam öğrenmenizi sağlar.</p><h4>Mod Seçimi</h4><p>Oyun başlamadan önce mod seçim ekranında istediğiniz modu seçebilirsiniz. Dilerseniz her seferinde farklı mod deneyerek hem tanımdan kelimeye hem de kelimeden tanıma yönelik pratik yapabilirsiniz.</p>"
+        },
+        {
+          "id": "oyun-puan",
+          "title": "Puan Sistemi ve Rekor Kırma",
+          "tags": ["puan", "skor", "rekor", "süre", "bonus"],
+          "relatedArticles": ["oyun-modlar", "sayfam-skor"],
+          "content": "<h3>Puan Sistemi</h3><p>Her doğru cevap puan kazandırır.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ayarlar",
+      "title": "Ayarlar",
+      "icon": "⚙️",
+      "description": "Tema, görünüm, yedekleme ve kişiselleştirme",
+      "targetView": null,
+      "articles": [
+        {
+          "id": "ayarlar-gorunum",
+          "title": "Tema ve Görünüm Seçenekleri",
+          "tags": ["tema", "koyu", "açık", "renk", "görünüm"],
+          "relatedArticles": ["ayarlar-kisisel", "ayarlar-erisim"],
+          "content": "<h3>Tema ve Görünüm</h3><p>Uygulamanın görünümünü kendi zevkine göre özelleştirebilirsiniz. Ayarlar ekranındaki <strong>Görünüm</strong> bölümünde tema seçeneklerini bulursunuz.</p><h4>Tema Seçenekleri</h4><ul><li><strong>Açık Tema:</strong> Beyaz/açık arka plan üzerine koyu metin. Aydınlık ortamlar için idealdir.</li><li><strong>Koyu Tema:</strong> Koyu arka plan üzerine açık metin. Gece kullanımında göz yorgunluğunu azaltır.</li><li><strong>Daha Koyu Tema (AMOLED):</strong> Tam siyah arka plan; AMOLED ekranlarda pil tasarrufu sağlar.</li></ul><h4>Nasıl Değiştirilir?</h4><p>Menüdeki <strong>Ayarlar</strong> simgesine tıklayın ve Görünüm sekmesine tıklayın. Ayarları burada bulacaksınız. Değişiklikler anında uygulanır.</p>"
+        },
+        {
+          "id": "ayarlar-kisisel",
+          "title": "Kişiselleştirme: Arkaplan, Renk, Yazı",
+          "tags": ["kişiselleştirme", "arkaplan", "renk", "yazı tipi", "boyut"],
+          "relatedArticles": ["ayarlar-gorunum"],
+          "content": "<h3>Kişiselleştirme</h3><p>Uygulamanın görsel deneyimini daha da özelleştirebilmek için çeşitli kişiselleştirme seçenekleri sunulur.</p><h4>Arkaplan</h4><p>Ayarlar → Kişiselleştirme → Arka Plan Görseli bölümünde bilgisayarınızdan bir fotoğraf seçerek uygulamanın arka planı olarak ayarlayabilirsiniz. Mevcut tema arka plan görseline göre otomatik uyarlanır.</p><h4>Arka Plan Rengi</h4><p>Arka plan rengi için önceden belirlenmiş renklerden birini seçebilirsiniz veya Gelişmiş Arka Plan Renk Seçimi seçeneğiyle daha farklı renkler oluşturabilirsiniz.</p><h4>Vurgu Rengi</h4><p>Bağlantı renkleri, butonlar ve vurgu öğeleri için önceden belirlenmiş renklerden birini seçebilirsiniz veya Gelişmiş Arka Plan Renk Seçimi seçeneğiyle daha farklı renkler oluşturabilirsiniz.</p><h4>Yazı Boyutu ve Satır Aralığı (Genel)</h4><p>Okuma konforu için metin boyutunu ve satır aralığını değiştirebilirsiniz. Değişiklik tüm ekranlara anında yansır. Yazı Boyutu ve Satır Aralığı ayarını Genel sekmesinde bulabilirsiniz.</p>"
+        },
+        {
+          "id": "ayarlar-erisim",
+          "title": "Erişilebilirlik Ayarları",
+          "tags": ["erişilebilirlik", "yüksek kontrast", "animasyon", "şeffaflık"],
+          "relatedArticles": ["ayarlar-gorunum", "ayarlar-kisisel"],
+          "content": "<h3>Erişilebilirlik Ayarları</h3><p>Uygulama, farklı görme ve kullanım ihtiyaçlarına uygun erişilebilirlik seçenekleri sunar.</p><h4>Yüksek Kontrast</h4><p>Açık veya koyu tema aktifken <strong>Yüksek Kontrast</strong> modunu açabilirsiniz. Bu mod görme güçlüğü yaşayan kullanıcılar için önerilir.</p><h4>Animasyonları Kapat</h4><p>Ekran geçişleri ve kart çevirme gibi animasyonlar hareket hassasiyeti olan kullanıcılar için rahatsızlık yaratabilir. <strong>Animasyonları Kapat</strong> seçeneğiyle tüm geçiş efektleri devre dışı kalır.</p><h4>Şeffaflık Efektlerini Kapat</h4><p>Kartlar ve başlık çubuğundaki bulanık cam efektini kapatmak için <strong>Şeffaflığı Kapat</strong> seçeneğini kullanın. Bu seçenek eski veya düşük güçlü cihazlarda performansı artırır. Bu erişilebilirlik ayarlarını <strong>Görünüm</strong> ayarlarında bulabilirsiniz. </p>"
+        },
+        {
+          "id": "ayarlar-yedekleme",
+          "title": "Verileri Yedekleme (Dışa Aktarma)",
+          "tags": ["yedekleme", "dışa aktarma", "JSON", "kaydetme"],
+          "relatedArticles": ["ayarlar-geri-yukleme"],
+          "content": "<h3>Verileri Yedekleme</h3><p>Favorileriniz, klasörleriniz, arama geçmişiniz ve öğrenme istatistiklerinizin tamamını JSON formatında dışa aktararak güvende tutabilirsiniz.</p><h4>Yedekleme Adımları</h4><ol><li>Ayarlar ekranında <strong>\"Yedekleme\"</strong> bölümüne gidin.</li><li>Yedeklemek istediğin veri türlerini seçin (arama geçmişi, favoriler, oyun skorları, öğrendiklerim listesi, çalışmam gerekenler listesi, geri dönüşüm kutusu, klasörler, uygulama ayarları).</li><li><strong>\"Yedek Oluştur ve İndir\"</strong> butonuna tıklayın.</li><li>JSON dosyası cihazına indirilir.</li></ol><h4>Ne Sıklıkla Yedeklemeli?</h4><p>Önemli değişiklikler yaptıktan sonra (yeni kelimeler ekledikten, büyük klasörler düzenledikten sonra) yedek almanızı öneririz. Uygulama verileri cihazda saklandığından uygulama silinirse veriler kaybolur.</p>"
+        },
+        {
+          "id": "ayarlar-geri-yukleme",
+          "title": "Yedeği Geri Yükleme",
+          "tags": ["geri yükleme", "içe aktarma", "kurtarma", "JSON"],
+          "relatedArticles": ["ayarlar-yedekleme"],
+          "content": "<h3>Yedeği Geri Yükleme</h3><p>Daha önce aldığınız JSON yedek dosyasını uygulamaya geri yükleyerek tüm verilerini kurtarabilirsiniz.</p><h4>Geri Yükleme Adımları</h4><ol><li>Ayarlar ekranında <strong>\"Yedekleme\"</strong> bölümüne git.</li><li>Yedekten Geri Yükle bölümünde JSON dosyasını sürükle-bırak alanına bırakın ya da dosya seçin.</li><li>Geri yükleme modunu seçin:<ul><li><strong>Birleştir:</strong> Mevcut verilerinizle yedekteki verileri birleştirir.</li><li><strong>Üzerine Yaz:</strong> Mevcut verilerinizi siler ve yedekten yükler.</li></ul></li><li><strong>\"Geri Yüklemeyi Başlat\"</strong> butonuna tıklayın ve işlemin tamamlanmasını bekleyin.</li></ol><h4>Dikkat</h4><p>\"Üzerine Yaz\" seçeneği mevcut tüm verilerini kalıcı olarak siler.</p>"
+        }
+      ]
+    }
+  ]
+}
